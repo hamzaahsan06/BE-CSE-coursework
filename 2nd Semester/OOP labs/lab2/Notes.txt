@@ -1,0 +1,13 @@
+Getters and Setters: Are used to update or give value to initialized variables.
+Used for updating values after object creation.
+
+Constructors: Are used to initialize variables with some value.
+Are called only once during object creation.
+
+For updating values later, getters and setters are required.
+
+Friend Function: Is used when it needs to be used by objects of multiple classes.
+It can be a friend function of 3 classes at a time.
+It can access private and protected data of those three classes.
+Just add prototype of friend function with friend keyword in the class methods protypes and define the function outside the class for that class.
+This is also come under method overloading
