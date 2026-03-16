@@ -1,0 +1,14 @@
+classname ob[3] = {1, 2, 3}; // initializing one-variable class; short form
+classname ob[3] = { classname(1),classname(2),classname(3) };//initializing one-
+variable class; long form
+
+1 parameter constructor → short form allowed
+2 or more parameters → long form required
+
+Just like a pointer of other types requires the address of a variable of that type, a pointer of a class requires the address of a variable of that class type.
+The use of -> is similar to what we learned in C structures. In C, when a pointer pointing to a structure can access its members using ->. 
+Similarly, we can access any method or attribute of a class object using ->.
+
+ptr = new int[size]; // array created in constructor
+The name of the array is not required in dynamically allocated array. The elements can be accessed by pointer.
+Also we can intialize array size with variable name because of "new" keyword which is contrary to normal array intialization
