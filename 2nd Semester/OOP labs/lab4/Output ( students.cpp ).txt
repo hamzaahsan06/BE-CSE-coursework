@@ -1,0 +1,70 @@
+Enter name: Hamza
+Enter roll number: 130
+Enter marks for test no.1 : 90
+Enter marks for test no.2 : 98
+Enter marks for test no.3 : 87
+Enter marks for test no.4 : 89
+Enter marks for test no.5 : 98
+Enter name: Ali 
+Enter roll number: 98
+Enter marks for test no.1 : 98
+Enter marks for test no.2 : 87
+Enter marks for test no.3 : 76
+Enter marks for test no.4 : 76
+Enter marks for test no.5 : 98
+Enter name: Hassan
+Enter roll number: 89
+Enter marks for test no.1 : 90
+Enter marks for test no.2 : 87
+Enter marks for test no.3 : 78
+Enter marks for test no.4 : 76
+Enter marks for test no.5 : 67
+Enter name: Tahir
+Enter roll number: 78
+Enter marks for test no.1 : 98
+Enter marks for test no.2 : 89
+Enter marks for test no.3 : 87
+Enter marks for test no.4 : 78
+Enter marks for test no.5 : 76
+Enter name: Yasir
+Enter roll number: 67
+Enter marks for test no.1 : 89
+Enter marks for test no.2 : 98
+Enter marks for test no.3 : 67
+Enter marks for test no.4 : 78
+Enter marks for test no.5 : 87
+Details of student 1
+Name: Hamza
+Roll Number: 130
+Percentage: 92.4%
+Grade: A
+Highest marks : 98
+------------------------
+Details of student 2
+Name: Ali
+Roll Number: 98
+Percentage: 87%
+Grade: A
+Highest marks : 98
+------------------------
+Details of student 3
+Name: Hassan
+Roll Number: 89
+Percentage: 79.6%
+Grade: B
+Highest marks : 90
+------------------------
+Details of student 4
+Name: Tahir
+Roll Number: 78
+Percentage: 85.6%
+Grade: A
+Highest marks : 98
+------------------------
+Details of student 5
+Name: Yasir
+Roll Number: 67
+Percentage: 83.8%
+Grade: A
+Highest marks : 98
+------------------------
