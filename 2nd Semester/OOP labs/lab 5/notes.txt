@@ -1,0 +1,9 @@
+Runtime polymorphism:
+--------------------
+like in this case when s1.display is called
+then compiler goes to display function of science student 
+and in that function it goes to grade function of base class 
+inside grade function it sees the virtual function and runtime binding happens.
+
+Without virtual, a function call inside a base class 
+always binds to the base class version at compile-time, even if the object is of a derived class.

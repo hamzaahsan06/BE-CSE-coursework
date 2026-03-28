@@ -1,0 +1,13 @@
+Enter name: Hamza
+Enter receiver's name: Yasir
+Enter stamp cost value: 30
+Enter weight of the post: 35
+Enter Registration cost of the post: 40
+Enter insured value of post: 45
+Post Details..
+Name : Hamza
+To : Yasir
+Stamp Cost : 30 $ 
+Weight : 35 gram(s) 
+Registration Cost : 40 $     
+Insured Amount of post: 45 $

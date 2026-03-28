@@ -1,0 +1,8 @@
+Name: car
+Product ID: 1
+Name: Hair Brush
+Product ID: 2
+Hair Brush is 20 % discounted
+Name: Irani Dates
+Product ID: 3
+Irani Dates will remain fresh for 2 years.

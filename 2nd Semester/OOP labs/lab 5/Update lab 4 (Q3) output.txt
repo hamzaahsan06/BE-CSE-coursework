@@ -1,0 +1,43 @@
+Enter name: Hamza
+Enter roll number: 130
+Enter marks for test no.1 : 78
+Enter marks for test no.2 : 98
+Enter marks for test no.3 : 98
+Enter marks for test no.4 : 78
+Enter marks for test no.5 : 76
+Enter name: Tahir
+Enter roll number: 89
+Enter marks for test no.1 : 87
+Enter marks for test no.2 : 78
+Enter marks for test no.3 : 67
+Enter marks for test no.4 : 79
+Enter marks for test no.5 : 98
+Enter marks of additional practice course : 76
+Enter name: ali
+Enter roll number: 87
+Enter marks for test no.1 : 87
+Enter marks for test no.2 : 90
+Enter marks for test no.3 : 89
+Enter marks for test no.4 : 78
+Enter marks for test no.5 : 76
+Have you enrolled in optional course? (yes/no): 
+yes
+Enter marks of optional course : 87
+--------------------------
+Name: Hamza
+Roll Number: 130
+Percentage: 85.6%
+Grade: A
+Highest marks : 98
+--------------------------
+Name: Tahir
+Roll Number: 89
+Percentage: 74.6154%
+Grade: B
+Highest marks : 98
+--------------------------
+Name: ali
+Roll Number: 87
+Percentage: 84.5%
+Grade: A
+Highest marks : 90
