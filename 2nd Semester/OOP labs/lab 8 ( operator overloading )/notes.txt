@@ -1,0 +1,16 @@
+. In C++, when we overload a binary operator as a member function, 
+then in main the object on the left side of the operator is the one calling the function (the "this" pointer), 
+and the object on the right side is the one being passed as the argument (obj).
+
+. Friend function are required when we are using objects of other classes in operator overloading
+While working on objects of same class we can do by member functions and we can als access private attributes of other objects of same class
+within member function definition. 
+
+. cout is an obj of class ostream and in the function ostream& means we are passing and receiving a reference of ostream class object, 
+which is named as out in definition. and when we write << with an object of vector class in main then cout is passed as out reference, 
+so whatever we do to out inside the function is actually happening to cout directly.
+
+. AI 
+We cannot rename or redefine cout as it is a global predefined object of ostream class. So in << overloading, 
+we receive it as a local reference named out inside the function, basically modifying how cout behaves for our class object through that 
+reference. Whatever we do to out is directly happening to cout, and we return it back so chaining like cout << v1 << v2 works.
