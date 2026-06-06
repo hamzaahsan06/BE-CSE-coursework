@@ -1,0 +1,33 @@
+Types of erros
+1. accessing invalid memory (means accessing deleted object)
+2. file not found
+3. invalid user input
+
+If throw line executes then code after throw ignored and catch block executes just after throw block.
+
+When we throw an error then compiler check which FIRST catch block is suitable to catch this throw 
+argument and then it executes accordingly.
+
+With the help of try catch we can easily handle exceptions and code won't crash. 
+It simply executes code that is written after try catch block.
+
+
+In Execution of catch block, sequence matters.
+Don't write default catch block first. In this scenario the default catch block executes and specific block is ignored.
+Always go from specific to general.
+
+try 
+{
+    if (StudentAge < 0)
+        throw logic_error("Invalid age"); // an object of logic_error class created with "Invalid age" as a parameter.
+    cout << "\nStudent Age: " << StudentAge << "\n\n";
+}
+catch (logic_error &e) // reference of that object is accepted
+{
+    cout << e.what() << endl; // what() function of an object is executed
+}
+
+The correct flow of exception handling is:
+1. throw statement — While writing the logic or function definition, identify the risky condition and write a throw statement. This throws an exception when something goes wrong during execution.
+2. try block — Inside the main function, call the risky function within a try block. This tells the runtime to attempt executing the code, knowing that this function might throw an exception.
+3. catch block — Immediately after the try block, write a catch block. It receives the value thrown by the throw statement and handles the exception gracefully, preventing the program from crashing.
