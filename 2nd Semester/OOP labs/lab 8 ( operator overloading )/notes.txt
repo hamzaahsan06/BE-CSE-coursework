@@ -1,5 +1,5 @@
 . In C++, when we overload a binary operator as a member function, 
-then in main the object on the left side of the operator is the one calling the function (the "this" pointer), 
+then in main the object on the left side of the operator is the one from which we call the function (the "this" pointer), 
 and the object on the right side is the one being passed as the argument (obj).
 
 . Friend function are required when we are using objects of other classes in operator overloading

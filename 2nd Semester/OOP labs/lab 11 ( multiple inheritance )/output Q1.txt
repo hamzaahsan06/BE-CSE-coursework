@@ -1,0 +1,17 @@
+Output: 
+
+A constructor
+B constructor
+C constructor
+D constructor
+
+// Because of virtual inheritance (class B and C virtually inherit from A), only one instance of A is created
+
+Destructor Sequence : 
+
+D destructor
+C destructor
+B destructor
+A destructor
+
+// Always the reverse of constructor order
