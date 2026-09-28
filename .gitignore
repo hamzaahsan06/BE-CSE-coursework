@@ -1,0 +1,41 @@
+# Compiled files
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Executable files (C/C++)
+*.bin
+*.app
+
+# Object files
+*.gch
+*.pch
+
+# IDE and Editor
+.vscode/
+.idea/
+*.code-workspace
+.sublime-project
+.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+dist/
+bin/
+lib/
