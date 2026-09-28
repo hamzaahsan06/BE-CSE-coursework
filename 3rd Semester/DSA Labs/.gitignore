@@ -1,0 +1,25 @@
+# Compiled output
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.lib
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE
+.vscode/
+.idea/
+
+# Executables from assignments/labs
+lab_*
+*/lab_*
+
+# Temporary files
+*.tmp
+*.swp
